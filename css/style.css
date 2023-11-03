@@ -3,6 +3,22 @@
   margin: 0;
   padding: 0;
 }
+body{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #E6F7FF;
+}
+
+.container{
+  padding: 30px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 700px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.03);
+  color: #000080;
+}
 
 form{
   display: inline-flex;
