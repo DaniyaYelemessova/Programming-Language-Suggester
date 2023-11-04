@@ -12,11 +12,24 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+
+## <div align="center"> 🛠️ _Technologies used:_
+
+- HTML
+- CSS
+- JavaScript
+- Visual Studio Code
+- GIT
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### <div align="center"> 🤔 Description:
 
 The "Programming Language Suggester" is a web application that helps prospective coders decide which programming language they should learn first. This project is created using HTML, CSS, JavaScript, and Web APIs. The application asks users a series of questions about themselves and provides a programming language suggestion based on their answers. It aims to make the learning process more enjoyable and personalized.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
 
 
 
