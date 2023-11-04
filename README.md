@@ -1,5 +1,7 @@
 ## <div align="center">Programming-Language-Suggester</div>
 
+#### <div align="center">📚 _Learning project for practicing JavaScript and Web Browsers  11/04/2023_ </div>
+
 #### By Daniya Yelemessova
 
 ## Technologies Used:
