@@ -1,4 +1,4 @@
-<h1 align-"center> Programming-Language-Suggester</h1>
+## <div align="center">Memory Game</div>
 
 #### By Daniya Yelemessova
 
