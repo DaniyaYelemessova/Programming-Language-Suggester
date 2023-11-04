@@ -4,6 +4,12 @@
 
 **_<p align="right">By Daniya Yelemessova_**</p>
 
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="30"/>
+<img alt="JavaScript" width="30px" src="https://raw.githubusercontent.com/DanielAdeyemi/devicon/master/icons/sass/sass-original.svg" />
+</p>
+
 ## Technologies Used:
 
 - HTML
