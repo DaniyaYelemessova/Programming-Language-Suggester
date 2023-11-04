@@ -1,50 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Programming-Language-Suggester</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <div class="container">
-  <h1>Programming Language Suggester</h1>
-  <form>
-    <label for="name">What is your name?</label>
-    <input id="name" type="text" placeholder="name" required>
-    
-    <h3>What type of personality do you have? Choose the best one:</h3>
-    <label>
-      <input id="detail" type="radio" name="personality" value="detail-oriented" required>
-      Detail-Oriented
-    </label>
-    <label>
-      <input id="creative" type="radio" name="personality" value="creative thinker">
-      Creative Thinker
-    </label>
-    <label>
-      <input id="problem" type="radio" name="personality" value="problem solver">
-      Problem Solver
-    </label>
-    <label>
-      <input id="analytical"  type="radio" name="personality" value="analytical mind">
-      Analytical Mind
-    </label>
-    
-    <h3>Please select your preferred role in web development:</h3>
-      <select id="web-path">
-        <option value="Front-end">Front-end</option>
-        <option value="Back-end">Back-end</option>
-        <option value="Full-stack">Full-stack</option>
-      </select>
-      <button type="submit">Submit</button>
-  </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming-Language-Suggester</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Programming Language Suggester</h1>
+      <form>
+        <label for="name">What is your name?</label>
+        <input id="name" type="text" placeholder="name" required />
 
-    <div id="output">cvsd</div>
-  </div>
-  <script src="js/script.js"></script>
-</body>
+        <h3>What type of personality do you have? Choose the best one:</h3>
+        <label>
+          <input
+            id="detail"
+            type="radio"
+            name="personality"
+            value="detail-oriented"
+            required
+          />
+          Detail-Oriented
+        </label>
+        <label>
+          <input
+            id="creative"
+            type="radio"
+            name="personality"
+            value="creative thinker"
+          />
+          Creative Thinker
+        </label>
+        <label>
+          <input
+            id="problem"
+            type="radio"
+            name="personality"
+            value="problem solver"
+          />
+          Problem Solver
+        </label>
+        <label>
+          <input
+            id="analytical"
+            type="radio"
+            name="personality"
+            value="analytical mind"
+          />
+          Analytical Mind
+        </label>
+
+        <h3>Please select your preferred role in web development:</h3>
+        <select id="web-path">
+          <option value="Front-end" selected>Front-end</option>
+          <option value="Back-end">Back-end</option>
+          <option value="Full-stack">Full-stack</option>
+        </select>
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="output"></div>
+
+      <div class="messages">
+        <p id="detail-front" class="hidden">
+          Based on your answers, it's essential to learn the following core
+          languages and technologies:
+          <strong>HTML, CSS, JavaScript, SASS or LESS.</strong> You can read about
+          these languages here
+          <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">read here.</a>
+        </p>
+        <p id="detail-back" class="hidden">
+          Based on your answers,you should focus on learning the following languages and technologies:
+          <strong>Python, Ruby, C#.</strong>
+        </p>
+        <p id="detail-full" class="hidden">
+          Based on your answers, you need to be proficient in both front-end and back-end development technologies:
+          <strong>Java, JavaScript, C#.</strong>
+        </p>
+    </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
 </html>
