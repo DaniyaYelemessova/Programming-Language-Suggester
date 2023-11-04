@@ -13,6 +13,8 @@ function classHidden(){
   document.querySelector("#solver-front").setAttribute("class", "hidden");
   document.querySelector("#solver-back").setAttribute("class", "hidden");
   document.querySelector("#solver-full").setAttribute("class", "hidden");
+  document.querySelector("#analytical-front").setAttribute("class", "hidden");
+  document.querySelector("#analytical-back-full").setAttribute("class", "hidden");
 }
 
 function infoGathering(e) {
@@ -42,7 +44,9 @@ function infoGathering(e) {
     document.querySelector("#solver-back").removeAttribute("class");
   }else if(radioInput === "problem solver" && dropInput === "Full-stack"){
     document.querySelector("#solver-full").removeAttribute("class");
+  }else if(radioInput === "analytical mind" && dropInput === "Front-end"){
+    document.querySelector("#analytical-front").removeAttribute("class");
+  }else if(radioInput === "analytical mind" && dropInput === "Front-end" || "Full-stack"){
+    document.querySelector("#analytical-back-full").removeAttribute("class");
   }
-  
-
-}
+};
