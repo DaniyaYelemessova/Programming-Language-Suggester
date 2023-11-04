@@ -2,7 +2,7 @@
 
 #### <div align="center">📚 _Learning project for practicing JavaScript and Web Browsers  11/04/2023_ </div>
 
-#### By Daniya Yelemessova
+**_<p align="right">By Daniya Yelemessova_**</p>
 
 ## Technologies Used:
 
