@@ -38,8 +38,17 @@ To get started, you'll need to clone this repository to your local machine. Open
 1. git clone https://github.com/DaniyaYelemessova/Programming-Language-Suggester.git
 2. Navigate to the Project Directory, using **cd**
 3. Open the project using **code .**
-
 </details>
+
+## <div align="center"> 🌟 Usage
+
+1. Access the Application: Open the web browser and visit the live version of the application or open the index.html file locally.
+2. Complete the Survey: Answer a series of questions to help the application recommend a programming language. 
+3. Submit Your Answers: Click "Submit" to receive a personalized language suggestion based on your responses.
+4. Start Learning: Explore and learn more about the recommended programming language to kickstart your coding journey.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 
 
 
