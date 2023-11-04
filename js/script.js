@@ -7,6 +7,9 @@ function classHidden(){
   document.querySelector("#detail-front").setAttribute("class", "hidden");
   document.querySelector("#detail-back").setAttribute("class", "hidden");
   document.querySelector("#detail-full").setAttribute("class", "hidden");
+  document.querySelector("#creative-front").setAttribute("class", "hidden");
+  document.querySelector("#creative-back").setAttribute("class", "hidden");
+  document.querySelector("#creative-full").setAttribute("class", "hidden");
 
 }
 
@@ -25,6 +28,12 @@ function infoGathering(e) {
     document.querySelector("#detail-back").removeAttribute("class");
   }else if(radioInput === "detail-oriented" && dropInput === "Full-stack"){
     document.querySelector("#detail-full").removeAttribute("class");
+  }else if(radioInput === "creative thinker" && dropInput === "Front-end"){
+    document.querySelector("#creative-front").removeAttribute("class");
+  }else if(radioInput === "creative thinker" && dropInput === "Back-end"){
+    document.querySelector("#creative-back").removeAttribute("class");
+  }else if(radioInput === "creative thinker" && dropInput === "Full-stack"){
+    document.querySelector("#creative-full").removeAttribute("class");
   }
   
 
