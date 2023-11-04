@@ -1,4 +1,4 @@
-## <div align="center">Memory Game</div>
+## <div align="center">Programming-Language-Suggester</div>
 
 #### By Daniya Yelemessova
 
