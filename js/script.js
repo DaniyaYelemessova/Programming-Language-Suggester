@@ -10,7 +10,9 @@ function classHidden(){
   document.querySelector("#creative-front").setAttribute("class", "hidden");
   document.querySelector("#creative-back").setAttribute("class", "hidden");
   document.querySelector("#creative-full").setAttribute("class", "hidden");
-
+  document.querySelector("#solver-front").setAttribute("class", "hidden");
+  document.querySelector("#solver-back").setAttribute("class", "hidden");
+  document.querySelector("#solver-full").setAttribute("class", "hidden");
 }
 
 function infoGathering(e) {
@@ -34,6 +36,12 @@ function infoGathering(e) {
     document.querySelector("#creative-back").removeAttribute("class");
   }else if(radioInput === "creative thinker" && dropInput === "Full-stack"){
     document.querySelector("#creative-full").removeAttribute("class");
+  }else if(radioInput === "problem solver" && dropInput === "Front-end"){
+    document.querySelector("#solver-front").removeAttribute("class");
+  }else if(radioInput === "problem solver" && dropInput === "Back-end"){
+    document.querySelector("#solver-back").removeAttribute("class");
+  }else if(radioInput === "problem solver" && dropInput === "Full-stack"){
+    document.querySelector("#solver-full").removeAttribute("class");
   }
   
 
