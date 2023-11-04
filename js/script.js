@@ -9,7 +9,7 @@ function infoGathering(e) {
   const output = document.getElementById("output");
   const radioInput = document.querySelector("input[name=personality]:checked").value;
   const dropInput = document.getElementById("web-path").value;
-  output.innerText = `Hi, ${inputName}! Happy to see you here!`
+  output.innerText = `Hi, ${inputName}! Happy to see you here! I see that you have ${radioInput} personality and your preferred role in web development is ${dropInput}.`
   
 
 }
