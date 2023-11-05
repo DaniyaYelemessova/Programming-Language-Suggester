@@ -49,7 +49,7 @@ To get started, you'll need to clone this repository to your local machine. Open
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## <div align="center"> <img src="images/github.png" alt="github icon" width="30px"> Link to site on Github Pages:_
+## <div align="center"> <img src="images/github.png" alt="github icon" width="30px"> _Link to site on Github Pages:_
 
 - [GitHub page link](https://github.com/DaniyaYelemessova/Programming-Language-Suggester.git)
 
