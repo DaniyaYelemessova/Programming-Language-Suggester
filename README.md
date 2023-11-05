@@ -49,11 +49,27 @@ To get started, you'll need to clone this repository to your local machine. Open
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## <div align="center"> <img src="https://icons8.com/icon/bVGqATNwfhYq/github" alt="github icon" width="30px"> Link to site on Github Pages:_
+## <div align="center"> <img src="images/github.png" alt="github icon" width="30px"> Link to site on Github Pages:_
 
 - [GitHub page link](https://github.com/DaniyaYelemessova/Programming-Language-Suggester.git)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## <div align="center"> Known Issues
+
+-no known issues at this time.
+
+## <div align="center"> 📬 Contact Information
+
+#### For any questions _[LinkedIn](www.linkedin.com/in/daniya-collings)_
+
+## <div align="center"> 📘 _License and copyright:_
+
+> **_© Daniya Yelemessova, 2023_**  
+> ⚖️ _[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)_
+
+
+
 
 
 
