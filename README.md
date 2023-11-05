@@ -23,13 +23,13 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### <div align="center"> 🤔 Description:
+### <div align="center"> 🤔 _Description:_
 
 The "Programming Language Suggester" is a web application that helps prospective coders decide which programming language they should learn first. This project is created using HTML, CSS, JavaScript, and Web APIs. The application asks users a series of questions about themselves and provides a programming language suggestion based on their answers. It aims to make the learning process more enjoyable and personalized.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## <div align="center"> 🚥 Installation
+## <div align="center"> 🚥 _Installation_
 
 <details>
 To set up this project locally for development or testing purposes, follow these steps:
@@ -40,7 +40,7 @@ To get started, you'll need to clone this repository to your local machine. Open
 3. Open the project using **code .**
 </details>
 
-## <div align="center"> 🌟 Usage
+## <div align="center"> 🌟 _Usage_
 
 1. Access the Application: Open the web browser and visit the live version of the application or open the _index.html_ file locally.
 2. Complete the Survey: Answer a series of questions to help the application recommend a programming language. 
@@ -55,11 +55,11 @@ To get started, you'll need to clone this repository to your local machine. Open
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## <div align="center"> Known Issues
+## <div align="center"> _Known Issues_
 
 -no known issues at this time.
 
-## <div align="center"> 📬 Contact Information
+## <div align="center"> 📬 _Contact Information_
 
 #### For any questions _[LinkedIn](www.linkedin.com/in/daniya-collings)_
 
