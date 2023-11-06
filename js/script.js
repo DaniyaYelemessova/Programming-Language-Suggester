@@ -46,7 +46,7 @@ function infoGathering(e) {
     document.querySelector("#solver-full").removeAttribute("class");
   }else if(radioInput === "analytical mind" && dropInput === "Front-end"){
     document.querySelector("#analytical-front").removeAttribute("class");
-  }else if(radioInput === "analytical mind" && dropInput === "Front-end" || "Full-stack"){
+  }else if(radioInput === "analytical mind" && (dropInput === "Front-end" || "Full-stack")){
     document.querySelector("#analytical-back-full").removeAttribute("class");
   }
 }
