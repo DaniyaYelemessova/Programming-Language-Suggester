@@ -1,7 +1,7 @@
 window.addEventListener("load", function(){
   const form = document.querySelector("form");
-  form.addEventListener("submit", infoGathering)
-})
+  form.addEventListener("submit", infoGathering);
+});
 
 function classHidden(){
   document.querySelector("#detail-front").setAttribute("class", "hidden");
@@ -19,7 +19,7 @@ function classHidden(){
 
 function infoGathering(e) {
   e.preventDefault();
-  classHidden()
+  classHidden();
   const inputName = document.getElementById("name").value;
   const output = document.getElementById("output");
   const radioInput = document.querySelector("input[name=personality]:checked").value;
@@ -49,4 +49,4 @@ function infoGathering(e) {
   }else if(radioInput === "analytical mind" && dropInput === "Front-end" || "Full-stack"){
     document.querySelector("#analytical-back-full").removeAttribute("class");
   }
-};
+}
