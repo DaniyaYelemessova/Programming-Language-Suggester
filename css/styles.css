@@ -21,6 +21,12 @@ body{
   color: #000080;
 }
 
+#alert{
+  margin-top: 10px;
+  font-weight: 800;
+  color: red;
+}
+
 form{
   display: inline-flex;
   flex-direction: column;
@@ -44,6 +50,10 @@ select{
 
 .input-style{
   padding: 10px;
+}
+
+label{
+  margin-top: 20px;
 }
 
 #web-path{
