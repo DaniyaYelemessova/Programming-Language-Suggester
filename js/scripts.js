@@ -32,7 +32,7 @@ function infoGathering(e) {
   const movieArray = Array.from(movieInput);
   const newMovieArray = [];
   movieArray.forEach(function(movie){
-    newMovieArray.push(movie.value)
+    newMovieArray.push(movie.value);
   });
   if(movieInput.length === 0){
     document.querySelector("#alert").removeAttribute("class");
@@ -42,7 +42,7 @@ function infoGathering(e) {
   const radioInput = document.querySelector("input[name=personality]:checked").value;
   const dropInput = document.getElementById("web-path").value;
 
-  output.innerText = `Hi, ${inputName}! Happy to see you here! it's interesting! your less favorite number is ${inputNumber}! i wonder why? I see that you have ${radioInput} personality and your preferred role in web development is ${dropInput}. By the way, great choice of  ${newMovieArray} movie(s).`;
+  output.innerText = `Hi, ${inputName}! Happy to see you here! it's interesting! your less favorite number is ${inputNumber}! i wonder why? I see that you have ${radioInput} personality and your preferred role in web development is ${dropInput}. By the way, great choice of  ${newMovieArray.join(" and ")} movie(s).`;
 
 
   if(radioInput === "detail-oriented"){
